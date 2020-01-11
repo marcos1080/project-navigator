@@ -1,0 +1,15 @@
+{
+  "name": "project_navigator",
+  "version": "0.0.1",
+  "description": "Project Portfolio Navigator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Stuart",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "systemjs": "^6.1.7"
+  },
+  "dependencies": {}
+}

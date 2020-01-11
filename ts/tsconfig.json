@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "system",
+    "moduleResolution": "node",
+    "outFile": "../js/project_nav.js",
+    "target": "es5",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise"
+    ]
+  }
+}
