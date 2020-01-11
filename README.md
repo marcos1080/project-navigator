@@ -1,11 +1,11 @@
-#Readme
+# Readme
 
 My attempt to create a javascript carousel slider.
 
 I'm using it as a project portfolio for my website. It supports sliding left and right between projects and also
 has a dot selector to skip to specific projects.
 
-##Requires:
+## Requires:
 
 * NodeJS 12.x
 * Typescript
@@ -18,19 +18,19 @@ Typescript is installed using "sudo npm -g install typescript"
 
 The others are defined in the package.json and can be installed by running "npm install"
 
-##SystemJS
+## SystemJS
 
 I'm using typescript in a manner that compiles the source to a single file that uses SystemJS to load
 modules that can be used to initialise the app.
 
 Need to use the 'named-registers.js' found in the dist/extras folder in the SystemJS module folder.
 
-##Complilation
+## Complilation
 
 To compile the typescript navigate to the ts folder and type "tsc"
 The tsconfig.json contains the target outfile file path and can be easily changed.
 
-##Project Data:
+## Project Data:
 
 The server ajax.php endpoint returns project data as a JSON object.
 The data structure is as follows:
